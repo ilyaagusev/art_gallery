@@ -1,4 +1,4 @@
 /env
-example.jpg
-rotated.jpg
+__pycache__/
+*.jpg
 .vscode/

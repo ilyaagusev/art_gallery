@@ -1,5 +1,7 @@
 from PIL import Image
 
-example_image = Image.open('example.jpg')
-rotated_image = example_image.rotate(45)
-rotated_image.save('rotated.jpg')
+
+def rotate_image(image_name):
+    example_image = Image.open(image_name)
+    rotated_image = example_image.rotate(45)
+    rotated_image.save('rotated_{0}'.format(image_name))
