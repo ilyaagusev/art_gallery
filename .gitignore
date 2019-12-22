@@ -2,3 +2,7 @@
 __pycache__/
 *.jpg
 .vscode/
+overview.py
+image_thumbnail.py
+import_image.py
+image_mode_changer.py
